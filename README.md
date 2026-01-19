@@ -1,4 +1,3 @@
-
 # Experiment1a
 ## Title : Display Primitive Data Types
 ```java
