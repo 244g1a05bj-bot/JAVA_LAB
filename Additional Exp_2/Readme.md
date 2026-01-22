@@ -49,3 +49,4 @@ class Fibonacci {
 }
 ```
 # output
+![output of fibonacci](Fibonacci.png)
