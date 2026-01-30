@@ -90,7 +90,7 @@ public class TestVehicle {
 ![output of multi Inheritance](MultiInheritance.png)
 
 # Exp-4c
-## Title : To implement constructor to find area of Different shapes
+## Title : To implement Constructor to find area of Different shapes
 ```java
 public abstract class Figure {
     double dim1;
