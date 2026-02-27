@@ -91,5 +91,5 @@ public class TestVehicle1 {
 }
 ```
 # OUTPUT
-![output of TestVehicle](TestVehicle1.png)
+![output of TestVehicle](TestVehicle.png)
 
