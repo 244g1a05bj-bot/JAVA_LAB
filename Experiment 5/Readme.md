@@ -92,4 +92,20 @@ public class TestVehicle1 {
 ```
 # OUTPUT
 ![output of TestVehicle](TestVehicle.png)
+# Exp-5c
+## Title : StringBufferDeleteDemo
+```java
+public class StringBufferDeleteDemo {
+    public static void main(String[] args) {
+        StringBuffer sb = new StringBuffer("Java Programming");
+        System.out.println("Original String: " + sb);
+        sb.deleteCharAt(4);
+        System.out.println("After deleting character at index 4: " + sb);
+        sb.delete(0, 4);
+        System.out.println("After deleting characters from index 0 to 4: " + sb);
+    }
+}
+```
+# OUTPUT
+![output of StringBuffer](StringBufferDelete.png)
 
