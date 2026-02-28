@@ -126,3 +126,51 @@ public class TestProducerConsumer {
 ```
 #  OUTPUT
 ![output of prod con problem](8b.png)
+
+# Exp-8c
+## Title : Arithmetic Operations
+```java
+package arithmetic;
+
+public class ArithmeticOperations {
+    public int addition(int x, int y) {
+        return x + y;
+    }
+
+    public int subtraction(int x, int y) {
+        return x - y;
+    }
+
+    public int multiplication(int x, int y) {
+        return x * y;
+    }
+
+    public int division(int x, int y) {
+        return x / y;
+    }
+}
+
+import arithmetic.*;
+
+public class Calculate {
+    public static void main(String[] args) {
+        ArithmeticOperations ao = new ArithmeticOperations();
+
+        int sum = ao.addition(10, 5);
+        System.out.println("Addition: " + sum);
+
+        int diff = ao.subtraction(10, 5);
+        System.out.println("Subtraction: " + diff);
+
+        int prod = ao.multiplication(10, 5);
+        System.out.println("Multiplication: " + prod);
+
+        int quot = ao.division(10, 5);
+        System.out.println("Division: " + quot);
+    }
+}
+```
+# OUTPUT 
+![output of Arithmetic operations](8c.png) 
+
+
